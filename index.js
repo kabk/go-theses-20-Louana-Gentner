@@ -14,3 +14,14 @@ $(".menu-item").click(function(){
   // use it to open the connected popup
 	$("#popup-" + id).show();
 });
+
+screen.orientation.lock();   // webkit only
+and
+
+screen.lockOrientation("orientation");
+
+
+    function setHalfVolume() {
+        var myAudio = document.getElementById("audio");
+        myAudio.volume = 0.2;
+    }
